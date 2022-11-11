@@ -1,0 +1,12 @@
+//
+//  TCView.h
+//  TCDownloadReturn-1.3_4
+//
+//  Created by Mattia Leggieri on 12/10/22.
+//
+
+#import "../TCScrollView/TCScrollView.h"
+
+@interface TCView : NSView
+@property (nonatomic, strong) TCScrollView *scrollView;
+@end
